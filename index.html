@@ -26,6 +26,12 @@ title: 何锦强简历
 				<p>&nbsp;&nbsp;您好，我是何锦强，不是高手，也不是牛人，目前从事基于淘宝开放平台（TOP）的软件开发工作。</p>
 			    <p>新浪微博:<a href="http://weibo.com/jackho118" target="_blank">http://weibo.com/jackho118</a></p>
 			    <p>电子邮箱:sdljjack@yahoo.com.cn</p>
+
+				<ul>
+　　　　{% for post in site.posts %}
+　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　{% endfor %}
+　　</ul>
 			  </div>
 			  <div style="padding-left:660px">
 				  <script type="text/javascript" charset="utf-8">
