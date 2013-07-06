@@ -8,7 +8,7 @@ $(function(){
 		// The new year is here! Count towards something else.
 		// Notice the *1000 at the end - time must be in milliseconds
 		//ts = (new Date()).getTime() + 10*24*60*60*1000;
-		ts=new Date("June 9,2013 16:10:00");
+		ts=new Date("August 2,2013 17:00:00");
 		newYear = false;
 	}
 		
